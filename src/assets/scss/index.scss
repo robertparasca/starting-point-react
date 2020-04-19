@@ -1,3 +1,17 @@
 body {
     background: gray;
 }
+
+section {
+    width: 75vw;
+    margin: 0 auto;
+
+    &.action-buttons {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    button {
+        padding: 5px 10px;
+    }
+}
